@@ -1,0 +1,91 @@
+ /* hero-bottom  */
+@media screen and (min-width:768px) and (max-width:992px) {
+    .wrapper {
+        /* flex-direction: column; */
+    }
+    .home-icon{
+        /* margin-bottom: 1rem; */
+    }
+    #descound{
+        padding: 30px 0 !important;
+    }
+    .descount-offer-img {
+        top: -26% !important;
+        left: 0%;
+    }
+    .descount-offer-img img{
+        height: 400px;
+    }
+    .descount-offer{
+        font-size: 11rem;
+        left: 5%;
+        top: 22%;
+    }
+    .discound-info h2{
+        font-size: 2rem;
+    }
+    .spl-icon a i{
+        padding: 8px !important;
+    }
+    .tagBtn{
+        display: flex;
+        gap:5px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:768px) {
+    .wrapper {
+        flex-direction: column;
+    }
+    .home-icon{
+        margin-bottom: 1rem;
+    }
+    .descount-offer-img{
+        display: none;
+    }
+    .spl-icon{
+        padding-top: 10px !important;
+        padding-bottom: 14px !important;
+    }
+    .footerPyMethod{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* ============================
+    Rsponsive CSS for product view section
+================================*/
+/* responsive */
+@media screen and (max-width:992px) {
+    .productDetails{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .productDetails {
+        display: flex;
+        flex-direction: column;
+    }
+    .productImg{
+        display: flex;
+        flex-direction: column;  
+    }
+    .proSingleImg img{
+        width: 100vw;
+        height: 300px;
+    }
+    .more-img{
+        display: flex;
+        justify-content: space-around;
+    }
+    .more-img img{
+        width: 130px;
+        height: 130px;
+    }
+    .proTitle h2{
+        font-size: 2rem;
+    }
+    
+}

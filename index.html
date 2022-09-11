@@ -1,0 +1,1361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>emaly</title>
+    <!-- bootstarp min css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- fontAwesome -->
+    <!-- <link rel="stylesheet" href="css/all.min.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!-- owl caroussel min css -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- owl theme css -->
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <!-- niceCountryInput -->
+    <link rel="stylesheet" href="css/niceCountryInput.css">
+    <!-- custome css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <!-- header top -->
+        <div class="headerTop bg-dark">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                    <p class="navbar-brand text-white pt-3">Default Welcome to msg!</p>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <span class="niceCountryInputSelector" data-selectedcountry="US" data-showspecial="false" data-showflags="true"
+                                    data-i18nall="All selected" data-i18nnofilter="No selection" data-i18nfilter="Filter"
+                                    data-onchangecallback="onChangeCallback">
+                                </span>
+                            </li>
+                            <li class="nav-item dropdown top-link">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    My Account
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Sing up</a></li>
+                                    <li><a class="dropdown-item" href="#">Sing in</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo2.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto me-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MAN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">WOMEN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">KID</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ACCSSORIES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT US</a>
+                        </li>
+                    </ul>
+                    <!-- icon -->
+                    <div class="header-icon">
+                        <a href="#" class="text-secondary bprder-right">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                        <a href="#" class="text-secondary bprder-right">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </nav>
+    </header>
+    <!-- hero -->
+    <section id="hero" class="bg-light py-5">
+        <div class="container">
+            <div id="carouselExampleControls" class="carousel slide orange-bg" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-md-5">
+                                <img src="img/banner/headphone.png" class="d-block w-100" alt="tv">
+                            </div>
+                            <div class="col-md-7 hero-content">
+                                <h4 class="text-capitalize text-red">This Autumn</h4>
+                                <h2 class="text-uppercase">collection</h2>
+                                <h1 class="fw-bold text-uppercase">fashion street 2022</h1>
+                                <h6 class="mb-4 mt-3">25 world famous barnds</h6>
+                                <button class="btn btn-dark w-25 border-0 py-2 text-uppercase">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-md-5">
+                                <img src="img/banner/xbox.png" class="d-block w-100" alt="xbox">
+                            </div>
+                            <div class="col-md-7 hero-content">
+                                <h4 class="text-capitalize text-red">This Autumn</h4>
+                                <h2 class="text-uppercase">collection</h2>
+                                <h1 class="fw-bold text-uppercase">fashion street 2022</h1>
+                                <h6 class="mb-4 mt-3">25 world famous barnds</h6>
+                                <button class="btn btn-dark w-25 border-0 py-2 text-uppercase">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-md-5">
+                                <img src="img/banner/tv.png" class="d-block w-100" alt="headphone">
+                            </div>
+                            <div class="col-md-7 hero-content">
+                                <h4 class="text-capitalize text-red">This Autumn</h4>
+                                <h2 class="text-uppercase">collection</h2>
+                                <h1 class="fw-bold text-uppercase">fashion street 2022</h1>
+                                <h6 class="mb-4 mt-3">25 world famous barnds</h6>
+                                <button class="btn btn-dark w-25 border-0 py-2 text-uppercase">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- hero-bottom -->
+    <section class="border-bottom py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="wrapper  d-flex justify-content-center align-items-center">
+                        <div class="home-icon me-5">
+                            <i class="fa-solid fa-location-arrow"></i>
+                        </div>
+                        <div class="home-icon-content">
+                            <h5 class="text-uppercase">free shipping</h5>
+                            <p class="text-secondary">Apply for large order $ 200</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="wrapper d-flex justify-content-center align-items-center">
+                        <div class="home-icon me-5">
+                            <i class="fa-solid fa-location-arrow"></i>
+                        </div>
+                        <div class="home-icon-content">
+                            <h5 class="text-uppercase">free shipping</h5>
+                            <p class="text-secondary">Apply for large order $ 200</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="wrapper  d-flex justify-content-center align-items-center">
+                        <div class="home-icon me-5">
+                            <i class="fa-solid fa-location-arrow"></i>
+                        </div>
+                        <div class="home-icon-content">
+                            <h5 class="text-uppercase">free shipping</h5>
+                            <p class="text-secondary">Apply for large order $ 200</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- New Arrival -->
+    <section class="py-5">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="text-uppercase">New Arriaval
+                    <span></span>
+                </h2>
+            </div>
+            <div class="row g-4 my-5 mx-auto owl-carousel owl-theme">
+                <!-- product item 01 -->
+                <div class="col product-item mx-auto">
+                    <div class="product-img">
+                        <img src="img/clothes/20.jpg" class="img-fluid d-block mx-auto" alt="">
+                        <span class="product-btn"><a href="#">New</a></span>
+                        
+                        <!-- <a class="product-btn ms-3">New</a> -->
+                    </div>
+                    <div class="product-info py-3">
+                        <p>Configurable Product</p>
+                        <span>$599.00</span>
+                        <div class="rating">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- product item-02 -->
+                <div class="col product-item mx-auto">
+                    <div class="product-img">
+                        <img src="img/clothes/17.jpg" class="img-fluid d-block mx-auto" alt="">
+                        <span class="product-btn"><a href="#">New</a></span>
+                    </div>
+                    <div class="product-info py-3">
+                        <p>Configurable Product</p>
+                        <span>$599.00</span>
+                        <div class="rating">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- product item-03 -->
+                <div class="col product-item mx-auto">
+                    <div class="product-img">
+                        <img src="img/clothes/19.jpg" class="img-fluid d-block mx-auto" alt="">
+                        <span class="product-btn"><a href="#">New</a></span>
+                        <span class="product-btn"><a href="#">-1%</a></span>
+                    </div>
+                    <div class="product-info py-3">
+                        <p>Configurable Product</p>
+                        <span>$599.00</span>
+                        <div class="rating">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- product item-04 -->
+                <div class="col product-item mx-auto">
+                    <div class="product-img">
+                        <img src="img/clothes/21.jpg" class="img-fluid d-block mx-auto" alt="">
+                        <span class="product-btn"><a href="#">New</a></span>
+                        <span class="product-btn"><a href="#">-17%</a></span>
+                    </div>
+                    <div class="product-info py-3">
+                        <p>Configurable Product</p>
+                        <span>$599.00</span>
+                        <div class="rating">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- product item-05 -->
+                <div class="col product-item mx-auto">
+                    <div class="product-img">
+                        <img src="img/clothes/1.jpg" class="img-fluid d-block mx-auto" alt="">
+                        <span class="product-btn"><a href="#">New</a></span>
+                    </div>
+                    <div class="product-info py-3">
+                        <p>Configurable Product</p>
+                        <span>$599.00</span>
+                        <div class="rating">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- product item-06 -->
+                <div class="col product-item mx-auto">
+                    <div class="product-img">
+                        <img src="img/clothes/1.jpg" class="img-fluid d-block mx-auto" alt="">
+                        <span class="product-btn"><a href="#">New</a></span>
+                    </div>
+                    <div class="product-info py-3">
+                        <p>Configurable Product</p>
+                        <span>$599.00</span>
+                        <div class="rating">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- product item-07 -->
+                <div class="col product-item mx-auto">
+                    <div class="product-img">
+                        <img src="img/clothes/1.jpg" class="img-fluid d-block mx-auto" alt="">
+                        <span class="product-btn"><a href="#">New</a></span>
+                    </div>
+                    <div class="product-info py-3">
+                        <p>Configurable Product</p>
+                        <span>$599.00</span>
+                        <div class="rating">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End New Arrival -->
+
+    <!-- Save up to section -->
+    <section class="position-relative py-5" id="descound">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="descount-offer-img position-absolute">
+                        <img src="./img/discount-bg.png" alt="mostreviewed" srcset="">
+                        <div class="descount-offer">
+                            <span>50%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="discound-info">
+                        <h6>descount up 50%</h6>
+                        <h2>latter this weekend</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias facere mollitia reiciendis numquam voluptatum accusamus est corrupti aut quis et.</p>
+                        <a href="#" class="btn btn-outline-dark text-uppercase">learn more</a>
+                        <a href="#" class="btn btn-outline-dark text-uppercase ms-3"> shop now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Save up to section -->
+
+    <!-- Most REviewed -->
+    <section class="py-5">
+        <div class="container">
+            <div class="section-header-content">
+                <div class="section-title">
+                    <h2 class="text-uppercase">Most Reviewed
+                        <span></span>
+                    </h2>
+                </div>
+                <div class="title-nav">
+                    <a href="#">new product</a>/
+                    <a href="#">Price</a>/
+                    <a href="#">feautred</a>
+                </div>
+            </div>
+            <div class="row owl-carousel owl-theme">
+                <!-- product item 01 -->
+                <div class="col product-item mx-auto">
+                    <div class="product-img">
+                        <img src="img/clothes/20.jpg" class="img-fluid d-block mx-auto" alt="">
+                        <span class="product-btn"><a href="#">New</a></span>
+                        
+                        <!-- <a class="product-btn ms-3">New</a> -->
+                    </div>
+                    <div class="product-info py-3">
+                        <p>Configurable Product</p>
+                        <span>$599.00</span>
+                        <div class="rating">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- product item-02 -->
+                <div class="col product-item mx-auto">
+                    <div class="product-img">
+                        <img src="img/clothes/17.jpg" class="img-fluid d-block mx-auto" alt="">
+                        <span class="product-btn"><a href="#">New</a></span>
+                    </div>
+                    <div class="product-info py-3">
+                        <p>Configurable Product</p>
+                        <span>$599.00</span>
+                        <div class="rating">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- product item-03 -->
+                <div class="col product-item mx-auto">
+                    <div class="product-img">
+                        <img src="img/clothes/19.jpg" class="img-fluid d-block mx-auto" alt="">
+                        <span class="product-btn"><a href="#">New</a></span>
+                        <span class="product-btn"><a href="#">-1%</a></span>
+                    </div>
+                    <div class="product-info py-3">
+                        <p>Configurable Product</p>
+                        <span>$599.00</span>
+                        <div class="rating">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- product item-04 -->
+                <div class="col product-item mx-auto">
+                    <div class="product-img">
+                        <img src="img/clothes/21.jpg" class="img-fluid d-block mx-auto" alt="">
+                        <span class="product-btn"><a href="#">New</a></span>
+                        <span class="product-btn"><a href="#">-17%</a></span>
+                    </div>
+                    <div class="product-info py-3">
+                        <p>Configurable Product</p>
+                        <span>$599.00</span>
+                        <div class="rating">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row owl-carousel owl-theme pt-3">
+                <!-- product item 01 -->
+                <div class="col product-item mx-auto">
+                    <div class="product-img">
+                        <img src="img/clothes/20.jpg" class="img-fluid d-block mx-auto" alt="">
+                        <span class="product-btn"><a href="#">New</a></span>
+                        
+                        <!-- <a class="product-btn ms-3">New</a> -->
+                    </div>
+                    <div class="product-info py-3">
+                        <p>Configurable Product</p>
+                        <span>$599.00</span>
+                        <div class="rating">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- product item-02 -->
+                <div class="col product-item mx-auto">
+                    <div class="product-img">
+                        <img src="img/clothes/17.jpg" class="img-fluid d-block mx-auto" alt="">
+                        <span class="product-btn"><a href="#">New</a></span>
+                    </div>
+                    <div class="product-info py-3">
+                        <p>Configurable Product</p>
+                        <span>$599.00</span>
+                        <div class="rating">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- product item-03 -->
+                <div class="col product-item mx-auto">
+                    <div class="product-img">
+                        <img src="img/clothes/19.jpg" class="img-fluid d-block mx-auto" alt="">
+                        <span class="product-btn"><a href="#">New</a></span>
+                        <span class="product-btn"><a href="#">-1%</a></span>
+                    </div>
+                    <div class="product-info py-3">
+                        <p>Configurable Product</p>
+                        <span>$599.00</span>
+                        <div class="rating">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- product item-04 -->
+                <div class="col product-item mx-auto">
+                    <div class="product-img">
+                        <img src="img/clothes/21.jpg" class="img-fluid d-block mx-auto" alt="">
+                        <span class="product-btn"><a href="#">New</a></span>
+                        <span class="product-btn"><a href="#">-17%</a></span>
+                    </div>
+                    <div class="product-info py-3">
+                        <p>Configurable Product</p>
+                        <span>$599.00</span>
+                        <div class="rating">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Most REviewed -->
+
+    <!-- Galary section -->
+    <!-- Fashon Hover start -->
+<!-- <section id="fashonhov" class="mt-5">
+    <div class="container">
+        <div class="parent">
+            <div class="div1 Posirela ">
+                <img src="img/galary/fason-one.png.png" alt="">
+                <div class="posiabsu text-center">
+                    <h5 class="pt-5 fst-italic">Paris</h5>
+                    <p class="fs-4 fw-bold">FASHION DRESSES</p>
+                    <p class="fs-4 fw-bold">COLLECTION</p>
+                    <img src="image/white-lane.png" alt="">
+                    <p class="fs-5 pt-3">NEW DESIGN OF MODERN STYLE</p>
+                </div>
+            </div>
+            <div class="div2 Posirela ">
+                <img src="img/galary/rsz_fashon.png" alt="">
+                <div class="posiabsu text-center">
+                    <h5 class="fst-italic">This Summer</h5>
+                    <p class="fs-4 fw-bold">FASHION COLLECTION</p>
+                    <p class="fs-4 fw-bold">NEW STYLE</p>
+                    <img src="image/white-lane.png" alt="">
+                    <p class="fs-5 pt-3">TOOK PLACE IN PARISI ON 25/05/2016</p>
+                </div>
+            </div>
+            <div class="div3 Posirela ">
+                <img src="img/galary/fason-one.png.png" alt="">
+                <div class="posisave text-center">
+                    <h5 class="pt-5">SAVE UP TO </h5>
+                    <p class="thartfiv">35%</p>
+                    <p class="fs-4">All PRODUCTS</p>
+                </div>
+            </div>
+            <div class="div4 Posirela ">
+                <img src="img/galary/fason-three.png.png" alt="">
+                <div class="posiabsu text-center">
+                    <h5 class="pt-5 fst-italic">Sunglasses</h5>
+                    <p class="fs-4 fw-bold">TOP-SELLING 2015</p>
+                    <img src="image/white-lane.png" alt="">
+                    <p class="fs-5 pt-3">EMERGING BRANDS THIS YEAR </p>
+                </div>
+            </div>
+            <div class="div5 Posirela ">
+                <img src="img/galary/fason-four.png.png" alt="">
+                <div class="posiabsu text-center">
+                    <h5 class="pt-5 fst-italic">New Style</h5>
+                    <p class="fs-4 fw-bold">YOUNG FASHION CHANNEL</p>
+                    <p class="fs-4 fw-bold">COLLECTION</p>
+                    <img src="image/white-lane.png" alt="">
+                    <p class="fs-5 pt-3">NEW FASHION TRENDS OF THE YOUTH</p>
+                </div>
+            </div>
+        </div> -->
+        <!-- <div class="row g-2">
+            <div class="col-md-4 pb-2 bg-dark">
+                <div class="gallary-info pb-3">
+                    <h5 class="pt-5 fst-italic">Paris</h5>
+                    <p class="fs-4 fw-bold">FASHION DRESSES</p>
+                    <p class="fs-4 fw-bold">COLLECTION</p>
+                    <img src="image/white-lane.png" alt="">
+                    <p class="fs-5 pt-3">NEW DESIGN OF MODERN STYLE</p>
+                </div>
+                <div class="row g-2">
+                    <div class="col-md-12 border bg-dark">
+                        <div class="gallary-info pb-3">
+                            <h5 class="pt-5 fst-italic">Paris</h5>
+                            <p class="fs-4 fw-bold">FASHION DRESSES</p>
+                            <p class="fs-4 fw-bold">COLLECTION</p>
+                            <img src="image/white-lane.png" alt="">
+                            <p class="fs-5 pt-3 text-white">NEW DESIGN OF MODERN STYLE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="gallary-info pb-3">
+                    <h5 class="pt-5 fst-italic">Paris</h5>
+                    <p class="fs-4 fw-bold">FASHION DRESSES</p>
+                    <p class="fs-4 fw-bold">COLLECTION</p>
+                    <img src="image/white-lane.png" alt="">
+                    <p class="fs-5 pt-3">NEW DESIGN OF MODERN STYLE</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="gallary-info pb-3">
+                    <h5 class="pt-5 fst-italic">Paris</h5>
+                    <p class="fs-4 fw-bold">FASHION DRESSES</p>
+                    <p class="fs-4 fw-bold">COLLECTION</p>
+                    <img src="image/white-lane.png" alt="">
+                    <p class="fs-5 pt-3">NEW DESIGN OF MODERN STYLE</p>
+                </div>
+                <div class="row g-2">
+                    <div class="col-md-12">
+                        <div class="gallary-info pb-3">
+                            <h5 class="pt-5 fst-italic">Paris</h5>
+                            <p class="fs-4 fw-bold">FASHION DRESSES</p>
+                            <p class="fs-4 fw-bold">COLLECTION</p>
+                            <img src="image/white-lane.png" alt="">
+                            <p class="fs-5 pt-3">NEW DESIGN OF MODERN STYLE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        
+    </div>
+</section> -->
+<!-- End Galary section -->
+
+    <!-- Special offers -->
+    <section class="py-5">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="text-uppercase">Special Offers
+                    <span></span>
+                </h2>
+            </div>
+            <div class="row py-3">
+                <div class="col-lg-4 col-md-6 col-sm-12 text-sm-center">
+                    <div class="specialOffer-content">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="./img/insta/1.jpg" alt="">
+                            </div>
+
+                            <div class="col-md-6">
+                                <p>Configurable Product</p>
+                                <span>$599.00</span>
+                                <div class="spl-icon pt-4">
+                                    <a href="#">
+                                        <i class="fa-solid fa-cart-shopping border p-3"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart ms-2 border p-3"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-solid fa-scale-unbalanced ms-2 border p-3"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 text-sm-center">
+                    <div class="specialOffer-content">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="./img/insta/1.jpg" alt="">
+                            </div>
+
+                            <div class="col-md-6">
+                                <p>Configurable Product</p>
+                                <span>$599.00</span>
+                                <div class="spl-icon pt-4">
+                                    <a href="#">
+                                        <i class="fa-solid fa-cart-shopping border p-3"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart ms-2 border p-3"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-solid fa-scale-unbalanced ms-2 border p-3"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 text-sm-center">
+                    <div class="specialOffer-content">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="./img/insta/1.jpg" alt="">
+                            </div>
+
+                            <div class="col-md-6">
+                                <p>Configurable Product</p>
+                                <span>$599.00</span>
+                                <div class="spl-icon pt-4">
+                                    <a href="#">
+                                        <i class="fa-solid fa-cart-shopping border p-3"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart ms-2 border p-3"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-solid fa-scale-unbalanced ms-2 border p-3"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 text-sm-center pt-3">
+                    <div class="specialOffer-content">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="./img/insta/1.jpg" alt="">
+                            </div>
+
+                            <div class="col-md-6">
+                                <p>Configurable Product</p>
+                                <span>$599.00</span>
+                                <div class="spl-icon pt-4">
+                                    <a href="#">
+                                        <i class="fa-solid fa-cart-shopping border p-3"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart ms-2 border p-3"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-solid fa-scale-unbalanced ms-2 border p-3"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 text-sm-center pt-3">
+                    <div class="specialOffer-content">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="./img/insta/1.jpg" alt="">
+                            </div>
+
+                            <div class="col-md-6">
+                                <p>Configurable Product</p>
+                                <span>$599.00</span>
+                                <div class="spl-icon pt-4">
+                                    <a href="#">
+                                        <i class="fa-solid fa-cart-shopping border p-3"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart ms-2 border p-3"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-solid fa-scale-unbalanced ms-2 border p-3"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 text-sm-center pt-3">
+                    <div class="specialOffer-content">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="./img/insta/1.jpg" alt="">
+                            </div>
+
+                            <div class="col-md-6">
+                                <p>Configurable Product</p>
+                                <span>$599.00</span>
+                                <div class="spl-icon pt-4">
+                                    <a href="#">
+                                        <i class="fa-solid fa-cart-shopping border p-3"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart ms-2 border p-3"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-solid fa-scale-unbalanced ms-2 border p-3"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Special offers -->
+    
+    <!-- testimonial section -->
+    <section id="testimonial">
+        <div class="testimonial-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                                    aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="testimonial-content text-center">
+                                        <div class=" author">
+                                            <img src="img/clothes/19.jpg" class="rounded-circle" alt="">
+                                        </div>
+                                        <h5>David Jones</h5>
+                                        <h6>Web Devloper</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eaque illum molestias amet   numquam maiores dolores veniam atque itaque ratione Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eaque illum molestias amet numquam maiores dolores veniam atque itaque ratione</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="testimonial-content text-center">
+                                        <div class=" author">
+                                            <img src="img/clothes/21.jpg" class="rounded-circle" alt="">
+                                        </div>
+                                        <h5>David Moris</h5>
+                                        <h6>Web Devloper</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eaque illum molestias amet   numquam maiores dolores veniam atque itaque ratione Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eaque illum molestias amet numquam maiores dolores veniam atque itaque ratione.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="testimonial-content text-center">
+                                        <div class=" author">
+                                            <img src="img/clothes/17.jpg" class="rounded-circle" alt="">
+                                        </div>
+                                        <h5>Alisa</h5>
+                                        <h6>Web Devloper</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eaque illum molestias amet   numquam maiores dolores veniam atque itaque ratione Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eaque illum molestias amet numquam maiores dolores veniam atque itaque ratione.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End testimonial section -->
+
+    <!-- Blog section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="text-uppercase">Form The Blog 
+                    <span></span>
+                </h2>
+            </div>
+            <div class="row owl-carousel owl-theme my-5">
+                <div class="col-lg-11">
+                    <div class="blog-img">
+                        <img src="img/blog/1.jpg" class="d-block rounded" alt="blog-images">
+                    </div>
+                    <div class="blog-info py-3">
+                        <h5 class="">Lorem ipsum dolor sit amet</h5>
+                        <span>
+                            <i class="fa fa-clock me-3"></i>
+                            Dec 7
+                        </span>
+                            <span>
+                                <i class="fa fa-user mx-3"></i>
+                                Naguyen Thang
+                            </span>
+                        
+                        <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore amet dicta molestiae facere</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <!-- blog item-2 -->
+                <div class="col-lg-11">
+                    <div class="blog-img">
+                        <img src="img/blog/2.jpg" class="d-block rounded" alt="blog-images">
+                    </div>
+                    <div class="blog-info py-3">
+                        <h5 class="">Lorem ipsum dolor sit amet</h5>
+                        <span>
+                            <i class="fa fa-clock me-3"></i>
+                            Dec 7
+                        </span>
+                            <span>
+                                <i class="fa fa-user mx-3"></i>
+                                Naguyen Thang
+                            </span>
+                        
+                        <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore amet dicta
+                            molestiae facere </p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-11">
+                    <div class="blog-img">
+                        <img src="img/blog/3.jpg" class="d-block rounded" alt="blog-images">
+                    </div>
+                    <div class="blog-info py-3">
+                        <h5 class="">Lorem ipsum dolor sit amet</h5>
+                        <span>
+                            <i class="fa fa-clock me-3"></i>
+                            Dec 7
+                        </span>
+                            <span>
+                                <i class="fa fa-user mx-3"></i>
+                                Naguyen Thang
+                            </span>
+                        
+                        <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore amet dicta molestiae facere...</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-11">
+                    <div class="blog-img">
+                        <img src="img/blog/4.jpg" class="d-block rounded" alt="blog-images">
+                    </div>
+                    <div class="blog-info py-3">
+                        <h5 class="">Lorem ipsum dolor sit amet</h5>
+                        <span>
+                            <i class="fa fa-clock me-3"></i>
+                            Dec 7
+                        </span>
+                            <span>
+                                <i class="fa fa-user mx-3"></i>
+                                Naguyen Thang
+                            </span>
+                        
+                        <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore amet dicta molestiae facere</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-11">
+                    <div class="blog-img">
+                        <img src="img/blog/5.jpg" class="d-block rounded" alt="blog-images">
+                    </div>
+                    <div class="blog-info py-3">
+                        <h5 class="">Lorem ipsum dolor sit amet</h5>
+                        <span>
+                            <i class="fa fa-clock me-3"></i>
+                            Dec 7
+                        </span>
+                            <span>
+                                <i class="fa fa-user mx-3"></i>
+                                Naguyen Thang
+                            </span>
+                        
+                        <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore amet dicta molestiae facere</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-11">
+                    <div class="blog-img">
+                        <img src="img/blog/6.jpg" class="d-block rounded" alt="blog-images">
+                    </div>
+                    <div class="blog-info py-3">
+                        <h5 class="">Lorem ipsum dolor sit amet</h5>
+                        <span>
+                            <i class="fa fa-clock me-3"></i>
+                            Dec 7
+                        </span>
+                            <span>
+                                <i class="fa fa-user mx-3"></i>
+                                Naguyen Thang
+                            </span>
+                        
+                        <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore amet dicta molestiae facere</p>
+                        <a href="#" class="text-danger">Read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-11">
+                    <div class="blog-img">
+                        <img src="img/blog/5.jpg" class="d-block rounded" alt="blog-images">
+                    </div>
+                    <div class="blog-info py-3">
+                        <h5 class="">Lorem ipsum dolor sit amet</h5>
+                        <span>
+                            <i class="fa fa-clock me-3"></i>
+                            Dec 7
+                        </span>
+                            <span>
+                                <i class="fa fa-user mx-3"></i>
+                                Naguyen Thang
+                            </span>
+                        
+                        <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore amet dicta molestiae facere</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-11">
+                    <div class="blog-img">
+                        <img src="img/blog/1.jpg" class="d-block rounded" alt="blog-images">
+                    </div>
+                    <div class="blog-info py-3">
+                        <h5 class="">Lorem ipsum dolor sit amet</h5>
+                        <span>
+                            <i class="fa fa-clock me-3"></i>
+                            Dec 7
+                        </span>
+                            <span>
+                                <i class="fa fa-user mx-3"></i>
+                                Naguyen Thang
+                            </span>
+                        
+                        <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore amet dicta molestiae facere </p>
+                        <a href="#" class="text-danger">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Blog section -->
+
+    <!-- Exlpore section -->
+    <section id="explore" class="explore bg-dark">
+        <div class="container">
+            <div class="row text-center py-5">
+                <div class="col-md-12">
+                    <h2 class="text-white">Explore and Find Fashion <span class="text-danger">You Love</span>. Don't"Miss" Your Life!</h2>
+                    <p class="text-secondary">Look for passion and love with Emily store</p>
+                    <a href="#" class="btn btn-outline-light">DISCOVER</a>
+                    <a href="#" class="btn btn-outline-light ms-3">SHOP NOW</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- End Exlpore section -->
+
+    <!-- Brand section -->
+    <section class="brand py-3 border-bottom">
+        <div class="container">
+            <div class="brand-logo">
+                <div class="single-logo">
+                    <img src="img/brand/1.png" alt="" srcset="">
+                    <div class="brand-info">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <h6>Bata</h6>
+                    </div>
+                </div>
+                <div class="single-logo">
+                    <img src="img/brand/2.png" alt="" srcset="">
+                    <div class="brand-info">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <h6>loto</h6>
+                    </div>
+                </div>
+                <div class="single-logo">
+                    <img src="img/brand/3.png" alt="" srcset="">
+                    <div class="brand-info">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <h6>GUCCI</h6>
+                    </div>
+                </div>
+                <div class="single-logo">
+                    <img src="img/brand/4.png" alt="" srcset="">
+                    <div class="brand-info">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <h6>NIKE</h6>
+                    </div>
+                </div>
+                <div class="single-logo">
+                    <img src="img/brand/5.png" alt="" srcset="">
+                    <div class="brand-info">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <h6>Adidas</h6>
+                    </div>
+                </div>
+                <div class="single-logo">
+                    <img src="img/brand/6.png" alt="" srcset="">
+                    <div class="brand-info">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <h6>Cartier</h6>
+                    </div>
+                </div>
+                <div class="single-logo">
+                    <img src="img/brand/1.png" alt="" srcset="">
+                    <div class="brand-info">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <h6>Louis Vuitton</h6>
+                    </div>
+                </div>
+                <div class="single-logo">
+                    <img src="img/brand/2.png" alt="" srcset="">
+                    <div class="brand-info">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <h6>ZARA</h6>
+                    </div>
+                </div>
+                <div class="single-logo">
+                    <img src="img/brand/3.png" alt="" srcset="">
+                    <div class="brand-info">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <h6>Chanel</h6>
+                    </div>
+                </div>
+                <div class="single-logo">
+                    <img src="img/brand/4.png" alt="" srcset="">
+                    <div class="brand-info">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <h6>Rolex</h6>
+                    </div>
+                </div>
+                <div class="single-logo">
+                    <img src="img/brand/5.png" alt="" srcset="">
+                    <div class="brand-info">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <h6>Hermes</h6>
+                    </div>
+                </div>
+                <div class="single-logo">
+                    <img src="img/brand/6.png" alt="" srcset="">
+                    <div class="brand-info">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <h6>Rick Owens</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Brand section -->
+
+    <!-- footerwizeed section -->
+    <section id="footerWezed" class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-2">
+                    <div class="wezed-content">
+                        <h2>INFORMATION</h2>
+                        <div class="wizedLinks">
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Delivery Information</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="#">Services</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="wezed-content">
+                        <h2>CUSTOMER</h2>
+                        <div class="wizedLinks">
+                            <ul>
+                                <li><a href="#">Serch Terms</a></li>
+                                <li><a href="#">Advanced Search</a></li>
+                                <li><a href="#">Orders and Returns</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Return Policy</a></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="wezed-content">
+                        <h2>OUR ACCOUNT</h2>
+                        <div class="wizedLinks">
+                            <ul>
+                                <li><a href="#">My Account</a></li>
+                                <li><a href="#">Orders and Returns</a></li>
+                                <li><a href="#">Site Map</a></li>
+                                <li><a href="#">Search Terms</a></li>
+                                <li><a href="#">Advanced Search</a></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="wezed-content">
+                        <h2>Contact Us</h2>
+                        <div class="wizedIcon">
+                            <i class="fa-solid fa-home"></i>
+                            <div>
+                                <a href="#">No 1972 Charlington Gates Liberty
+                                    Suspendis Mettis, New York</a>
+                            </div>
+                        </div>
+                        <div class="wizedIcon">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div><a href="#">contact@email.com</a></div>
+                        </div>
+                        <div class="wizedIcon">
+                            <i class="fa-solid fa-phone"></i>
+                            <div><a href="#">(+84) 988 881826</a></div>
+                        </div>
+                        <div class="wizedIcon">
+                            <i class="fa-solid fa-sim-card"></i>
+                            <div><a href="#">0433 558 1259</a></div>
+                        </div>
+                        
+
+                        
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="wezed-content">
+                        <h2>twitter</h2>
+                        <div class="wizedLinks">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="img/Twittar-log.png" alt="" srcset="">
+                                </div>
+                                <div class="col-md-6">
+                                    <span>TPS Solution</span><br>
+                                    <span>@tpssolution</span>
+                            </div>
+                            <div class="py-3">
+                                The easy ways to install #pretashop on Your
+                                website http://goo.gl.6snkkw
+                            </div>
+                            <span>Posted on 08 Dec</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End footerwizeed section -->
+
+    <!-- footer section -->
+    <footer class="border-top py-5">
+        <div class="container">
+        <!-- footer bottom -->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="footer-right">
+                    <p>&copy; 2022 Magento Demo Store All Right Reserved Designed by</p>
+                    <a href="#"><i class="fa-brands fa-paypal"></i></a>
+                    <a href="#"><i class="fa-brands fa-cc-visa"></i></a>
+                    <a href="#"><i class="fa-brands fa-cc-mastercard"></i></a>
+                    <a href="#"><i class="fa-brands fa-cc-visa"></i></a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="footer-newsLetter">
+                    <h5 class="fw-bold">NEWSLETTER</h5>
+                    <P>Sign up for our newsletter</P>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="footer-form">
+                    <input type="text" class="form-control py-2" name="" id="" placeholder="Enter email here">
+                    <div class="footer-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- End footer section -->
+
+
+    <!-- jquery min js -->
+    <script src="js/jquery.min.js"></script>
+    <!-- bootstarp min js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- owl carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- slick js -->
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <!-- niceCountryInput js -->
+    <script src="js/niceCountryInput.js"></script>
+    <!-- script js -->
+    <script src="js/script.js"></script>
+
+    <!-- for niceCountryInput -->
+    <script>
+        function onChangeCallback(ctr) {
+            console.log("The country was changed: " + ctr);
+            //$("#selectionSpan").text(ctr);
+        }
+
+        $(document).ready(function () {
+            $(".niceCountryInputSelector").each(function (i, e) {
+                new NiceCountryInput(e).init();
+            });
+        });
+    </script>
+
+    <script>
+        var myCarousel = document.querySelector('#testimonailSlide')
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            interval: 1500
+        })
+    </script>
+</body>
+
+</html>
