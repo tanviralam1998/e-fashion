@@ -49,3 +49,23 @@ $(document).ready(function(){
         
     });
 });
+
+// =========== for grid and list view =================
+
+const itenList = document.querySelector('.list-item');
+const gridViewBtn = document.getElementById('grid-active-btn');
+const listActiveBtn = document.getElementById('list-active-btn');
+
+    gridViewBtn.classList.add('active-btn');
+
+        gridViewBtn.addEventListener('click', () => {
+            gridViewBtn.classList.add('active-btn');
+            listActiveBtn.classList.remove('active-btn');
+            itenList.classList.remove('details-active');
+        });
+
+        listActiveBtn.addEventListener('click', () => {
+            listActiveBtn.classList.add('active-btn');
+            gridViewBtn.classList.remove('active-btn');
+            itenList.classList.add('details-active');
+        });
